@@ -3,7 +3,8 @@ import { styled } from "@stitches/react";
 import { SLIDER_WIDTH } from "./configs";
 
 export const SliderContainer = styled("div", {
-  width: SLIDER_WIDTH,
+  maxWidth: SLIDER_WIDTH,
+  width: "100%",
   borderRadius: 12,
   margin: "auto",
   border: "1px solid rgba(0,0,0,0.3)",
