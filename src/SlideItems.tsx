@@ -54,6 +54,7 @@ const StyledFullScreenImagePreviewModal = styled("div", {
   height: (3 / 4) * SLIDER_WIDTH,
   transition: "opacity 0.2s ease-in-out",
   position: "relative",
+  borderRadius: 12,
   "&.--hidden": {
     opacity: 0,
     pointerEvents: "none",
@@ -64,7 +65,7 @@ const StyledFullScreenImagePreviewModal = styled("div", {
     background: "rgba(0,0,0,.4)",
     color: "white",
     fontFamily: "sans-serif",
-    fontSize: "1.7rem",   
+    fontSize: "1.7rem",
     opacity: 0,
     inset: 0,
     display: "flex",
@@ -78,7 +79,6 @@ const StyledFullScreenImagePreviewModal = styled("div", {
   img: {
     backgroundColor: "rgba(0,0,0,0.15)",
     margin: "auto",
-    borderRadius: 12,
     width: "100%",
     height: "100%",
     objectFit: "cover",

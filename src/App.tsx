@@ -83,6 +83,7 @@ function App() {
         <motion.div
           ref={scope}
           drag="x"
+          dragTransition={{ power: 0.4 }}
           dragConstraints={constraintsRef}
           onDragStart={() => setIsDragging(true)}
           onDragEnd={() => setIsDragging(false)}
